@@ -1,5 +1,5 @@
 form {
-  border: 3px solid #f1f1f1;
+  border: 10px solid #f1f1f1;
 }
 
 input[type=text], input[type=password] {
@@ -58,4 +58,47 @@ span.psw {
   .cancelbtn {
     width: 100%;
   }
+}
+
+
+
+
+//
+
+
+.navbar {
+    background-color: #79b1d0;
+    overflow: auto;
+  }
+
+  .navbar a {
+    float: left;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    width: 10%;
+    text-align: center;
+  }
+
+  .navbar a:hover {
+    background-color: #0169b0;
+  }
+
+  .navbar a.active {
+    background-color: #79b1d0;
+  }
+
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left; 
+    }
+  }
+
+  body {
+ background-color: #72b3e9;
+ background-repeat: repeat-y;
 }

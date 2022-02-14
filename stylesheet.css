@@ -8,8 +8,8 @@
     padding: 15px;
     color: white;
     text-decoration: none;
-    font-size: 17px;
-    width: 30%;
+    font-size: 20px;
+    width: 10%;
     text-align: center;
   }
 
@@ -29,3 +29,71 @@
       text-align: left; 
     }
   }
+
+  body {
+ background-image: url("raindrops.jpg");
+ background-color: #72b3e9;
+ background-repeat: repeat-y;
+}
+
+
+
+a:link, a:visited {
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+.table {
+  box-shadow: 0 0 10px rgba(blue, green, blue);
+  border-collapse: collapse;
+  font-family: 'Quicksand', sans-serif;
+  overflow: hidden;
+  font-weight: bold;
+  text-align: center;
+  }
+
+.table thead th {
+  background: #41a3bb;
+  color: #ffffff
+}
+
+.table td,
+.table th {
+  padding: 10px 20px;
+  background-color: #c2e7ff2d
+}
+
+.table tbody tr:nth-of-type(even) {
+  background: #9bdaeb9f;
+}
+
+.table tbody tr:last-of-type {
+  border-bottom: 10px solid #41a3bb;
+}
+
+tr:hover {background-color: rgb(176, 215, 233);}
+
+h1 {
+  color: rgb(255, 255, 255);
+  background-color: rgba(58, 131, 190, 0.596);
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 200px;
+}
+
+.hed {
+    color: rgb(255, 255, 255);
+  background-color: rgba(58, 131, 190, 0.596);
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 50px;
+}
+
+.table-wrapper {
+  display: grid;
+  place-content: center;
+}
