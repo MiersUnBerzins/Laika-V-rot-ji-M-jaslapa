@@ -1,0 +1,110 @@
+.navbar {
+    background-color: #79b1d0;
+    overflow: auto;
+  }
+
+  .navbar a {
+    float: left;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    width: 10%;
+    text-align: center;
+  }
+
+  .navbar a:hover {
+    background-color: #0169b0;
+  }
+
+  .navbar a.active {
+    background-color: #79b1d0;
+  }
+
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left; 
+    }
+  }
+
+  body {
+ background-image: url("raindrops.jpg");
+ background-color: #72b3e9;
+ background-repeat: repeat-y;
+}
+
+
+
+a:link, a:visited {
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+.table {
+  box-shadow: 0 0 10px rgba(blue, green, blue);
+  border-collapse: collapse;
+  font-family: 'Quicksand', sans-serif;
+  overflow: hidden;
+  font-weight: bold;
+  text-align: center;
+  }
+
+.table thead th {
+  background: #41a3bb;
+  color: #ffffff
+}
+
+.table td,
+.table th {
+  padding: 10px 20px;
+  background-color: #c2e7ff2d
+}
+
+.table tbody tr:nth-of-type(even) {
+  background: #9bdaeb9f;
+}
+
+.table tbody tr:last-of-type {
+  border-bottom: 10px solid #41a3bb;
+}
+
+tr:hover {background-color: rgb(176, 215, 233);}
+
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 200px;
+  text-shadow: 4px 4px 6px #00000065;
+}
+
+.hed {
+    color: rgb(255, 255, 255);
+  background-color: rgba(65, 138, 197, 0.596);
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 50px;
+  padding: 10px;
+}
+
+.table-wrapper {
+  display: grid;
+  place-content: center;
+}
+
+.row {
+  display: flex;
+  background-color: rgb(65, 138, 197)
+}
+
+.column {
+  flex: 33.33%;
+  padding: 10px;
+}
