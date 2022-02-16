@@ -1,5 +1,54 @@
 
 [
+
+    {
+      "datums": "",
+      "pilseta": "",
+      "laikapstakli": "",
+      "vejs": "",
+      "temp": "",
+      "vards": ""
+    },
+      {
+      "datums": "16.02.2022",
+      "pilseta": "Sigulda",
+      "laikapstakli": "Līst",
+      "vejs": "24",
+      "temp": "2",
+      "vards": "MiersUnBerzins"
+    },
+      {
+      "datums": "16.02.2022",
+      "pilseta": "Jūrmala",
+      "laikapstakli": "mitrs",
+      "vejs": "23",
+      "temp": "-1",
+      "vards": "anglijasbraucejs"
+    },
+    {
+      "datums": "16.02.2022",
+      "pilseta": "Liepāja",
+      "laikapstakli": "mākoņains",
+      "vejs": "24",
+      "temp": "-2",
+      "vards": "Saulite"
+    },
+    {
+      "datums": "16.02.2022",
+      "pilseta": "Daugavpils",
+      "laikapstakli": "Apmācies",
+      "vejs": "18",
+      "temp": "-2",
+      "vards": "udenspudele"
+    },
+    {
+      "datums": "",
+      "pilseta": "",
+      "laikapstakli": "",
+      "vejs": "",
+      "temp": "",
+      "vards": ""
+    },
     {
       "datums": "02.02.2022",
       "pilseta": "Sigulda",
