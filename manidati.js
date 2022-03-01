@@ -1,5 +1,5 @@
 function fetchData() {
-  fetch("./laiks.json")
+  fetch("./man.json")
     .then(response => {
       if (!response.ok) {
         throw Error("erawr");
@@ -18,7 +18,6 @@ function fetchData() {
             <td>${persona.laikapstakli}</td>
             <td>${persona.vejs}</td>
             <td>${persona.temp}</td>
-            <td>${persona.vards}</td>
           </tr>
       `;
       })

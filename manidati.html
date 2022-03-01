@@ -5,10 +5,9 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="sheet.css">
+	<link rel="stylesheet" href="stylesheet.css">
 	<title>Laika Vērotāji</title>
 </head>
-
 
 
 <body>
@@ -25,28 +24,26 @@
 		<a href="singin.html">Sing up</a>
 	</div>
 
-	<h1 class="hed"> Radio </h1>
+	<h1 class="hed"> MANI DATI </h1>
 
-	<div class="row">
-		<div class="column">
-			<img src="LR2-logo-RGB.png" alt="LR2" style="width:100%">
-  </div>
-  <div class="column">
-    <h2>
-      Dziesmas dzimtajā valodā. 
-   </h2>
+	<div class="table-wrapper">
+		<table class="table">
+			<thead>
+				<tr>
+					<th>Datums</th>
+					<th>Pilsēta</th>
+					<th>Laikapstākļi</th>
+					<th>Vējš km/h</th>
+					<th>Temperatūra</th>
+				</tr>
+			</thead>
+			<tbody id="showdata"></tbody>
+		</table>
+	</div>
 
-    <h2>
-      Dažādu laika periodu un žanru populāra latviešu mūzika. 
-    </h2>
+	<br><br>
 
-    <h2>
-      Izklaide, ziņas, klausītāju sveicieni svētkos, notikumi novados, praktiski padomi ērtākai ikdienai. 
-    </h2>
-
-  </div>
- 
-</div>
+   <script src="manidati.js"></script>
 
 </body>
 </html>
